@@ -18,6 +18,10 @@ describe('Functions checking', () => {
   test('expect to return reversed string', () => {
     expect(functs.reverseString('animal')).toBe('lamina')
   });
+
+  test('it returns the string with the first letter being in uppercase', () => {
+    expect(functs.capitalize('carlos')).toBe('Carlos');
+  });
 },
 
 describe('Calculator operations', () => {
