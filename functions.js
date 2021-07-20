@@ -6,7 +6,11 @@ const functs = {
     else {
       return string.length;
     }
-  }
+  },
+
+  reverseString(string) {
+    return string.split("").reverse().join("");;
+  },
 }
 
 export default functs;
